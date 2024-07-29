@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+       <form id="haeForm">
+            <label for="nimi">Nimi: <input type="text" id="nimi"></label><br>
+            <label for="osoite">Osoite: <input type="text" id="osoite"></label><br>
+            <label for="asty">Asiakastyyppi: </label>
+            <select id="asty">
+                <option value="0">Ei valintaa</option>
+            </select><br>
+            <button type="submit" id="haeBtn">Hae</button>
+       </form> 
+       <table id="haeTable">
+            <thead>
+                <th>Nimi</th>
+                <th>Osoite</th>
+                <th>Kaupunki</th>
+                <th>Avain</th>
+                <th>Poista</th>
+            </thead>
+            <tbody></tbody>
+       </table>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    margin: 0;
+    background-color: white;
+    color: #333;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 3px;
+    padding: 10px;
+}
+#haeForm {
+    display: flex;
+    width: 100%;
+    margin: 10px 0;
+    flex-direction: column;
+    gap: 5px;
+}
+#haeForm label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+#haeForm input, #haeForm select, #haeForm button {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+#haeForm input, #haeForm select {
+    width: 70%;
+}
+#haeForm button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+#haeTable {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;   
+}
+#haeTable th, #haeTable td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    background-color: #3a3a5a;
+    color: white;
+}
+#haeTable th {
+    background-color: #4a4a7a;
+    font-weight: bold;
+}
